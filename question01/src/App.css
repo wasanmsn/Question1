@@ -1,0 +1,49 @@
+.grid{
+  display: grid;
+  grid-template-columns: 200px minmax(100px,auto) 300px;
+}
+.col1{
+  padding: 20px;
+  background-color:#EE6352 ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.col2{
+  padding: 20px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  background-color:#3FA7D6 ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.col3{
+  background-color:#59CD90 ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 90px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+body > #root > div {
+  height: 100vh;
+}
+
+input {
+ border-radius: 50px;  
+
+}
+input:focus{
+  outline: none !important;
+  border:1px solid #f88262;
+  box-shadow: 0 0 10px #f83600 ;
+  
+}
+
